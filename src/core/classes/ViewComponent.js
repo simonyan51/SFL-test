@@ -3,7 +3,7 @@ import { errors } from './../constants';
 
 class ViewComponent extends Component {
     
-    constructor(mode = open) {
+    constructor() {
         super();
     }
 
