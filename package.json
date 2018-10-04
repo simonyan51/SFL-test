@@ -1,0 +1,27 @@
+{
+  "name": "users-with-their-repositories",
+  "version": "1.0.0",
+  "description": "This application shows users and their repositories.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --history-api-fallback --hot --mode development"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "author": "simonyan51",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "html-loader": "^0.5.5"
+  }
+}
